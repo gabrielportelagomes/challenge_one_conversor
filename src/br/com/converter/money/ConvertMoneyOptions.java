@@ -2,6 +2,7 @@ package br.com.converter.money;
 
 import javax.swing.JOptionPane;
 
+import br.com.converter.menu.MainMenu;
 import br.com.converter.message.ConvertedValueMessage;
 
 public class ConvertMoneyOptions {
@@ -54,7 +55,8 @@ public class ConvertMoneyOptions {
 			ConvertedValueMessage valueMessageMenu = new ConvertedValueMessage();
 			valueMessageMenu.showConvertedValueMessage(result);
 		} else {
-			System.out.println("Nenhuma opção selecionada.");
+			MainMenu mainMenu = new MainMenu();
+			mainMenu.showMenu();
 		}
 	}
 }
