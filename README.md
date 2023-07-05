@@ -28,3 +28,9 @@ Opções disponíveis:
   - Converter de Fahrenheit a Celsius;
   - Converter de Kelvin a Celsius;
   - Converter de Kelvin a Fahrenheit.
+
+## 
+
+<div align="center">
+  <img src="https://github.com/gabrielportelagomes/challenge_one_conversor/assets/105794828/5b7e9700-8cc5-4eb6-b03c-a9d3f0afe775" width="250" height="250"/>
+</div>
