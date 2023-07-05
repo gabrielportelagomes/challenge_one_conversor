@@ -2,8 +2,11 @@ package br.com.converter.menu;
 
 import javax.swing.JOptionPane;
 
+import br.com.converter.temperature.InputTempetatureMenu;
+
 public class MainMenu {
 	InputMenu input = new InputMenu();
+	InputTempetatureMenu inputTemperature = new InputTempetatureMenu();
 	
 	public void showMenu() {
 
@@ -16,7 +19,7 @@ public class MainMenu {
 			if (selected.equals("Conversor de Moeda")) {
 				input.getValue();
 			} else if (selected.equals("Conversor de Temperatura")) {
-				System.out.println(selected);
+				inputTemperature.getValue();
 			}
 		} else {
 			System.out.println("Conversor encerrado.");
